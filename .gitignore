@@ -1,0 +1,33 @@
+# Segredos — webhook do Bitrix24 dá acesso total ao CRM
+.env
+.env.*
+!.env.example
+*.pem
+credentials*.json
+service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+*.egg-info/
+build/
+dist/
+
+# Saídas de execução
+logs/
+*.log
+saida/
+output/
+state.json
+.cache/
+
+# Sistema
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
